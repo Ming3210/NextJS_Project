@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.custom-scroll::-webkit-scrollbar {
+  width: 0; /* Ẩn thanh cuộn ngang */
+  height: 0; /* Ẩn thanh cuộn dọc */
+}
+
+.custom-scroll {
+  scrollbar-width: none; /* Firefox: Ẩn thanh cuộn */
+}
+
+/* Đối với tất cả trình duyệt khác, đảm bảo chúng sử dụng cuộn tự động */
+.custom-scroll {
+  overflow-y: auto; /* Bảo đảm cuộn dọc hoạt động */
+  overflow-x: hidden; /* Bảo đảm không có cuộn ngang */
+}
