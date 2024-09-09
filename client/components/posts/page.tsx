@@ -1,6 +1,9 @@
 import React from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 
 export default function Post() {
+  const dispatch = useDispatch()
+  const state = useSelector((state)=>state)
   return (
    <div className='bg-white rounded-lg p-6 '>
      <div className='flex justify-center items-center gap-4  border-solid border-b-2 border-0'>

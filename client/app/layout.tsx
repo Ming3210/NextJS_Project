@@ -3,6 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/utils/header/page";
 import { inter } from "./fonts/fonts";
+import ClientProvider from "@/components/provider/ClientProvider";
+import HeaderWrapper from "@/utils/header/HeaderWrapper";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -25,19 +27,18 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const checkLogin = () => {
+    let check = JSON.parse(localStorage.getItem("userLoggedIn")|| "false");
+    if(!check) return false;
+    return true;
+  }
   return (
     <html lang="en">
-      
-      <body
-      
-        className={`${inter.className} antialiased bg-slate-100`}
-        
-      >
+      <body className={`${inter.className} antialiased bg-slate-100`}>
         <div className="flex w-full items-center sticky top-0 z-50">
-        <Header></Header>
+          <HeaderWrapper></HeaderWrapper>
         </div>
-       
-        {children}
+        <ClientProvider>{children}</ClientProvider> {/* Wrap with ClientProvider */}
       </body>
     </html>
   );

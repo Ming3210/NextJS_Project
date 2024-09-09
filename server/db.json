@@ -1,0 +1,768 @@
+{
+  "users": [
+    {
+      "id": "991j",
+      "dateOfBirth": "2004-02-10",
+      "username": "john_doe",
+      "email": "john@example.com",
+      "name": "John Doe",
+      "avatar": "https://example.com/profiles/john.jpg",
+      "banner": "https://example.com/profiles/john.jpg",
+      "bio": "Web developer and coffee enthusiast.",
+      "follows": [
+        {
+          "userId": 2,
+          "created_at": "2024-02-20"
+        }
+      ],
+      "friends": [
+        {
+          "userId": 2,
+          "add_at": "2024-02-20"
+        }
+      ],
+      "groups": [],
+      "created_at": "2024-01-15",
+      "password": "password123",
+      "gender": "Male"
+    },
+    {
+      "id": "022h",
+      "dateOfBirth": "2004-02-10",
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "name": "Jane Smith",
+      "avatar": "https://example.com/profiles/jane.jpg",
+      "banner": "https://example.com/profiles/jane.jpg",
+      "bio": "Graphic designer and artist.",
+      "follows": [
+        {
+          "userId": 1,
+          "created_at": "2024-02-20"
+        }
+      ],
+      "friends": [
+        {
+          "userId": 1,
+          "add_at": "2024-02-20"
+        }
+      ],
+      "groups": [],
+      "created_at": "2024-01-16",
+      "password": "securePass456",
+      "gender": "Female"
+    },
+    {
+      "id": "442f",
+      "dateOfBirth": "2004-02-10",
+      "username": "mike_ross",
+      "email": "mike@example.com",
+      "name": "Mike Ross",
+      "avatar": "https://example.com/profiles/mike.jpg",
+      "banner": "https://example.com/profiles/mike.jpg",
+      "bio": "Software engineer and gamer.",
+      "follows": [
+        {
+          "userId": 2,
+          "created_at": "2024-02-21"
+        }
+      ],
+      "friends": [
+        {
+          "userId": 1,
+          "add_at": "2024-02-21"
+        }
+      ],
+      "groups": [],
+      "created_at": "2024-01-17",
+      "password": "MikeR0ss789",
+      "gender": "Male"
+    },
+    {
+      "id": "120t",
+      "dateOfBirth": "2004-02-10",
+      "username": "susan_lee",
+      "email": "susan@example.com",
+      "name": "Susan Lee",
+      "avatar": "https://example.com/profiles/susan.jpg",
+      "banner": "https://example.com/profiles/susan.jpg",
+      "bio": "Entrepreneur and traveler.",
+      "follows": [
+        {
+          "userId": 3,
+          "created_at": "2024-02-22"
+        }
+      ],
+      "friends": [
+        {
+          "userId": 2,
+          "add_at": "2024-02-22"
+        }
+      ],
+      "groups": [],
+      "created_at": "2024-01-18",
+      "password": "Tr4velWithMe!",
+      "gender": "Female"
+    },
+    {
+      "id": "773a",
+      "dateOfBirth": "2004-02-10",
+      "username": "chris_evans",
+      "email": "chris@example.com",
+      "name": "Chris Evans",
+      "avatar": "https://example.com/profiles/chris.jpg",
+      "banner": "https://example.com/profiles/chris.jpg",
+      "bio": "Fitness trainer and food lover.",
+      "follows": [
+        {
+          "userId": 1,
+          "created_at": "2024-02-23"
+        }
+      ],
+      "friends": [
+        {
+          "userId": 3,
+          "add_at": "2024-02-23"
+        }
+      ],
+      "groups": [],
+      "created_at": "2024-01-19",
+      "password": "FitLover!123",
+      "gender": "Male"
+    },
+    {
+      "id": "662w",
+      "dateOfBirth": "2004-02-10",
+      "username": "lisa_wong",
+      "email": "lisa@example.com",
+      "name": "Lisa Wong",
+      "avatar": "https://example.com/profiles/lisa.jpg",
+      "banner": "https://example.com/profiles/lisa.jpg",
+      "bio": "Photographer and cat lover.",
+      "follows": [
+        {
+          "userId": 4,
+          "created_at": "2024-02-24"
+        }
+      ],
+      "friends": [
+        {
+          "userId": 2,
+          "add_at": "2024-02-24"
+        }
+      ],
+      "groups": [],
+      "created_at": "2024-01-20",
+      "password": "PhotoC4t!",
+      "gender": "Female"
+    },
+    {
+      "id": "554",
+      "dateOfBirth": "2004-02-10",
+      "username": "david_jones",
+      "email": "david@example.com",
+      "name": "David Jones",
+      "avatar": "https://example.com/profiles/david.jpg",
+      "banner": "https://example.com/profiles/david.jpg",
+      "bio": "Writer and music enthusiast.",
+      "follows": [
+        {
+          "userId": 5,
+          "created_at": "2024-02-25"
+        }
+      ],
+      "friends": [
+        {
+          "userId": 1,
+          "add_at": "2024-02-25"
+        }
+      ],
+      "groups": [],
+      "created_at": "2024-01-21",
+      "password": "Muz1cWr1ter",
+      "gender": "Male"
+    },
+    {
+      "id": "52v1",
+      "dateOfBirth": "2004-02-10",
+      "username": "amy_taylor",
+      "email": "amy@example.com",
+      "name": "Amy Taylor",
+      "avatar": "https://example.com/profiles/amy.jpg",
+      "banner": "https://example.com/profiles/amy.jpg",
+      "bio": "Yoga instructor and wellness coach.",
+      "follows": [
+        {
+          "userId": 6,
+          "created_at": "2024-02-26"
+        }
+      ],
+      "friends": [
+        {
+          "userId": 3,
+          "add_at": "2024-02-26"
+        }
+      ],
+      "groups": [],
+      "created_at": "2024-01-22",
+      "password": "YogaL0ve123",
+      "gender": "Female"
+    },
+    {
+      "id": "32l",
+      "dateOfBirth": "2004-02-10",
+      "username": "tom_brown",
+      "email": "tom@example.com",
+      "name": "Tom Brown",
+      "avatar": "https://example.com/profiles/tom.jpg",
+      "banner": "https://example.com/profiles/tom.jpg",
+      "bio": "Marketing expert and sports enthusiast.",
+      "follows": [
+        {
+          "userId": 7,
+          "created_at": "2024-02-27"
+        }
+      ],
+      "friends": [
+        {
+          "userId": 4,
+          "add_at": "2024-02-27"
+        }
+      ],
+      "groups": [],
+      "created_at": "2024-01-23",
+      "password": "M4rketMaster!",
+      "gender": "Male"
+    },
+    {
+      "id": "12s",
+      "dateOfBirth": "2004-02-10",
+      "username": "karen_green",
+      "email": "karen@example.com",
+      "name": "Karen Green",
+      "avatar": "https://example.com/profiles/karen.jpg",
+      "banner": "https://example.com/profiles/karen.jpg",
+      "bio": "Blogger and digital nomad.",
+      "follows": [
+        {
+          "userId": 8,
+          "created_at": "2024-02-28"
+        }
+      ],
+      "friends": [
+        {
+          "userId": 5,
+          "add_at": "2024-02-28"
+        }
+      ],
+      "groups": [],
+      "created_at": "2024-01-24",
+      "password": "N0madLife!",
+      "gender": "Female"
+    },
+    {
+      "id": "193f",
+      "name": "Phạm Văn Minh",
+      "username": "1234",
+      "email": "aabcxyz012@gmail.com",
+      "dateOfBirth": "2004-02-10",
+      "password": "123",
+      "gender": "Male",
+      "create_at": "2024-09-06",
+      "bio": "",
+      "banner": "https://th.bing.com/th/id/OIP.VoXO6QAJnMcud_Oig38WBQHaB2?rs=1&pid=ImgDetMain",
+      "avatar": "https://th.bing.com/th/id/R.e6453f9d07601043e5b928d25e129948?rik=JPSLKIXFf8DmmQ&pid=ImgRaw&r=0",
+      "group": [],
+      "follow": [],
+      "friends": []
+    },
+    {
+      "id": "08f6",
+      "name": "Nguyễn Văn Phúc",
+      "username": "123",
+      "email": "NVP-05@gmail.com",
+      "dateOfBirth": "2004-05-14",
+      "password": "123",
+      "confirmPassword": "123",
+      "gender": "Male",
+      "create_at": "2024-09-08",
+      "bio": "",
+      "banner": "https://th.bing.com/th/id/OIP.VoXO6QAJnMcud_Oig38WBQHaB2?rs=1&pid=ImgDetMain",
+      "avatar": "https://th.bing.com/th/id/R.e6453f9d07601043e5b928d25e129948?rik=JPSLKIXFf8DmmQ&pid=ImgRaw&r=0",
+      "group": [],
+      "follow": [],
+      "friends": [
+        {
+          "userId": "554",
+          "add_at": "2024-02-22"
+        },
+        {
+          "userId": "52v1",
+          "add_at": "2024-02-22"
+        },
+        {
+          "userId": "32l",
+          "add_at": "2024-02-22"
+        },
+        {
+          "userId": "193f",
+          "add_at": "2024-02-22"
+        },
+        {
+          "userId": "12s",
+          "add_at": "2024-02-22"
+        }
+
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "post_id": "1234567890",
+      "user_id": "773a",
+      "content": {
+        "text": "This is an example of a social media post.",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/R.be0d4a3ae62d899236574fd95c1fb4e6?rik=OjIK8kFlzdUiGw&pid=ImgRaw&r=0"
+          },
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/R.be0d4a3ae62d899236574fd95c1fb4e6?rik=OjIK8kFlzdUiGw&pid=ImgRaw&r=0"
+          },
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/R.be0d4a3ae62d899236574fd95c1fb4e6?rik=OjIK8kFlzdUiGw&pid=ImgRaw&r=0"
+          },
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/R.be0d4a3ae62d899236574fd95c1fb4e6?rik=OjIK8kFlzdUiGw&pid=ImgRaw&r=0"
+          },
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/R.be0d4a3ae62d899236574fd95c1fb4e6?rik=OjIK8kFlzdUiGw&pid=ImgRaw&r=0"
+          },
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/R.be0d4a3ae62d899236574fd95c1fb4e6?rik=OjIK8kFlzdUiGw&pid=ImgRaw&r=0"
+          },
+          {
+            "type": "video",
+            "url": "https://scontent.fhan14-1.fna.fbcdn.net/v/t42.1790-2/458622095_4016930345202920_4914732148042952143_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNDM5MzQ2MjEyOTIyNTQyfQ%3D%3D&_nc_eui2=AeHIw-SfthNXpV5Yqa6cv8qlPfiBaQnB_7k9-IFpCcH_uVmM5yd2wsJVvwpV9luVsYT96Pqb2bVhqxSq1ulHA_I5&_nc_ohc=OJbnB7LK1D0Q7kNvgEqdrkj&tn=SNEalZlHc0lROdIh&_nc_rml=0&_nc_ht=scontent.fhan14-1.fna&_nc_gid=AovavxJbvp9Ow6NXNdw9Xyg&oh=00_AYDg4LPOGrLyUHql1ze2gqlGezeQ1WNSPxjabnAqO4LxyA&oe=66E3FE8B"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 50,
+        "reactions": {
+          "like": 200,
+          "love": 30,
+          "wow": 15,
+          "sad": 5,
+          "angry": 6
+        }
+      }
+    },
+    {
+      "post_id": "2345678901",
+      "user_id": "08f6",
+      "content": {
+        "text": "Check out my new blog post!",
+        "media": [
+          {
+            "type": "link",
+            "url": "https://blog.com/new-post"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 80,
+        "reactions": {
+          "like": 100,
+          "love": 50,
+          "wow": 10,
+          "sad": 2,
+          "angry": 1
+        }
+      }
+    },
+    {
+      "post_id": "3456789012",
+      "user_id": "662w",
+      "content": {
+        "text": "Happy to announce our new product launch!",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/OIP.sW3um_sJG-5MU1xPmspHAwAAAA?pid=ImgDet&w=206&h=206&c=7&dpr=1.5"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 40,
+        "reactions": {
+          "like": 250,
+          "love": 60,
+          "wow": 20,
+          "sad": 0,
+          "angry": 5
+        }
+      }
+    },
+    {
+      "post_id": "4567890123",
+      "user_id": "662w",
+      "content": {
+        "text": "Throwback to my vacation in Greece!",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/OIP.sW3um_sJG-5MU1xPmspHAwAAAA?pid=ImgDet&w=206&h=206&c=7&dpr=1.5"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 30,
+        "reactions": {
+          "like": 400,
+          "love": 100,
+          "wow": 50,
+          "sad": 10,
+          "angry": 3
+        }
+      }
+    },
+    {
+      "post_id": "6789012345",
+      "user_id": "08f6",
+      "content": {
+        "text": "Here's a sneak peek of our next big project!",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://scontent.fhan14-1.fna.fbcdn.net/v/t42.1790-2/458622095_4016930345202920_4914732148042952143_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNDM5MzQ2MjEyOTIyNTQyfQ%3D%3D&_nc_eui2=AeHIw-SfthNXpV5Yqa6cv8qlPfiBaQnB_7k9-IFpCcH_uVmM5yd2wsJVvwpV9luVsYT96Pqb2bVhqxSq1ulHA_I5&_nc_ohc=OJbnB7LK1D0Q7kNvgEqdrkj&tn=SNEalZlHc0lROdIh&_nc_rml=0&_nc_ht=scontent.fhan14-1.fna&_nc_gid=AovavxJbvp9Ow6NXNdw9Xyg&oh=00_AYDg4LPOGrLyUHql1ze2gqlGezeQ1WNSPxjabnAqO4LxyA&oe=66E3FE8B"
+          }
+        ]
+      },
+      "status": "private",
+      "engagement": {
+        "shares": 5,
+        "reactions": {
+          "like": 80,
+          "love": 20,
+          "wow": 10,
+          "sad": 1,
+          "angry": 0
+        }
+      }
+    },
+    {
+      "post_id": "7890123456",
+      "user_id": "08f6",
+      "content": {
+        "text": "Celebrating our team's latest achievement!",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/OIP.FlxzDU2zCD37ZIut_VGxXQHaFj?rs=1&pid=ImgDetMain"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 60,
+        "reactions": {
+          "like": 300,
+          "love": 90,
+          "wow": 30,
+          "sad": 5,
+          "angry": 2
+        }
+      }
+    },
+    {
+      "post_id": "8901234567",
+      "user_id": "08f6",
+      "content": {
+        "text": "Feeling grateful for all the support!",
+        "media": []
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 25,
+        "reactions": {
+          "like": 180,
+          "love": 60,
+          "wow": 15,
+          "sad": 4,
+          "angry": 1
+        }
+      }
+    },
+    {
+      "post_id": "9012345678",
+      "user_id": "08f6",
+      "content": {
+        "text": "Just hit a new milestone on my fitness journey!",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/OIP.FlxzDU2zCD37ZIut_VGxXQHaFj?rs=1&pid=ImgDetMain"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 70,
+        "reactions": {
+          "like": 220,
+          "love": 85,
+          "wow": 35,
+          "sad": 6,
+          "angry": 0
+        }
+      }
+    },
+    {
+      "post_id": "1234567891",
+      "user_id": "08f6",
+      "content": {
+        "text": "Just finished reading an amazing book!",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/OIP.FlxzDU2zCD37ZIut_VGxXQHaFj?rs=1&pid=ImgDetMain"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 15,
+        "reactions": {
+          "like": 90,
+          "love": 25,
+          "wow": 10,
+          "sad": 2,
+          "angry": 1
+        }
+      }
+    },
+    {
+      "post_id": "2345678902",
+      "user_id": "08f6",
+      "content": {
+        "text": "Happy Monday everyone! How’s your week starting?",
+        "media": []
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 8,
+        "reactions": {
+          "like": 70,
+          "love": 15,
+          "wow": 5,
+          "sad": 1,
+          "angry": 0
+        }
+      }
+    },
+    {
+      "post_id": "3456789013",
+      "user_id": "08f6",
+      "content": {
+        "text": "Our new office space is ready! Excited to move in.",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/OIP.FlxzDU2zCD37ZIut_VGxXQHaFj?rs=1&pid=ImgDetMain"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 20,
+        "reactions": {
+          "like": 110,
+          "love": 40,
+          "wow": 8,
+          "sad": 0,
+          "angry": 2
+        }
+      }
+    },
+    {
+      "post_id": "4567890124",
+      "user_id": "773a",
+      "content": {
+        "text": "Thankful for a fantastic dinner with friends.",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/OIP.FlxzDU2zCD37ZIut_VGxXQHaFj?rs=1&pid=ImgDetMain"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 12,
+        "reactions": {
+          "like": 95,
+          "love": 30,
+          "wow": 6,
+          "sad": 1,
+          "angry": 0
+        }
+      }
+    },
+    {
+      "post_id": "5678901235",
+      "user_id": "08f6",
+      "content": {
+        "text": "Just got back from a relaxing weekend getaway.",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/OIP.FlxzDU2zCD37ZIut_VGxXQHaFj?rs=1&pid=ImgDetMain"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 18,
+        "reactions": {
+          "like": 130,
+          "love": 50,
+          "wow": 12,
+          "sad": 3,
+          "angry": 1
+        }
+      }
+    },
+    {
+      "post_id": "6789012347",
+      "user_id": "08f6",
+      "content": {
+        "text": "Sharing a sneak peek of my latest project.",
+        "media": [
+          {
+            "type": "video",
+            "url": "https://scontent.fhan14-1.fna.fbcdn.net/v/t42.1790-2/458622095_4016930345202920_4914732148042952143_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNDM5MzQ2MjEyOTIyNTQyfQ%3D%3D&_nc_eui2=AeHIw-SfthNXpV5Yqa6cv8qlPfiBaQnB_7k9-IFpCcH_uVmM5yd2wsJVvwpV9luVsYT96Pqb2bVhqxSq1ulHA_I5&_nc_ohc=OJbnB7LK1D0Q7kNvgEqdrkj&tn=SNEalZlHc0lROdIh&_nc_rml=0&_nc_ht=scontent.fhan14-1.fna&_nc_gid=AovavxJbvp9Ow6NXNdw9Xyg&oh=00_AYDg4LPOGrLyUHql1ze2gqlGezeQ1WNSPxjabnAqO4LxyA&oe=66E3FE8B"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 25,
+        "reactions": {
+          "like": 140,
+          "love": 50,
+          "wow": 18,
+          "sad": 2,
+          "angry": 1
+        }
+      }
+    },
+    {
+      "post_id": "7890123456",
+      "user_id": "08f6",
+      "content": {
+        "text": "Celebrating our team's latest achievement!",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/OIP.FlxzDU2zCD37ZIut_VGxXQHaFj?rs=1&pid=ImgDetMain"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 60,
+        "reactions": {
+          "like": 300,
+          "love": 90,
+          "wow": 30,
+          "sad": 5,
+          "angry": 2
+        }
+      }
+    },
+    {
+      "post_id": "8901234568",
+      "user_id": "08f6",
+      "content": {
+        "text": "Celebrating our 5th anniversary!",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/OIP.FlxzDU2zCD37ZIut_VGxXQHaFj?rs=1&pid=ImgDetMain"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 40,
+        "reactions": {
+          "like": 200,
+          "love": 75,
+          "wow": 25,
+          "sad": 4,
+          "angry": 2
+        }
+      }
+    },
+    {
+      "post_id": "9012345678",
+      "user_id": "08f6",
+      "content": {
+        "text": "Just hit a new milestone on my fitness journey!",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/OIP.FlxzDU2zCD37ZIut_VGxXQHaFj?rs=1&pid=ImgDetMain"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 70,
+        "reactions": {
+          "like": 220,
+          "love": 85,
+          "wow": 35,
+          "sad": 6,
+          "angry": 0
+        }
+      }
+    },
+    {
+      "post_id": "0123456789",
+      "user_id": "08f6",
+      "content": {
+        "text": "Our team is expanding! Check out our latest job openings.",
+        "media": [
+          {
+            "type": "link",
+            "url": "https://company.com/jobs"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 100,
+        "reactions": {
+          "like": 350,
+          "love": 120,
+          "wow": 45,
+          "sad": 8,
+          "angry": 2
+        }
+      }
+    }
+  
+  ]
+}

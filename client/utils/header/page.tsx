@@ -10,7 +10,7 @@ export default function page() {
   const router = useRouter();
 
   const login = ()=>{
-    router.push('/auth/sign-in');
+    router.push('/auth/sign-up');
   }
 
     return (
