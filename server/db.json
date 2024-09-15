@@ -6,8 +6,8 @@
       "username": "john_doe",
       "email": "john@example.com",
       "name": "John Doe",
-      "avatar": "https://example.com/profiles/john.jpg",
-      "banner": "https://example.com/profiles/john.jpg",
+      "avatar": "https://th.bing.com/th/id/R.e6453f9d07601043e5b928d25e129948?rik=JPSLKIXFf8DmmQ&pid=ImgRaw&r=0",
+      "banner": "https://th.bing.com/th/id/OIP.VoXO6QAJnMcud_Oig38WBQHaB2?rs=1&pid=ImgDetMain",
       "bio": "Web developer and coffee enthusiast.",
       "follows": [
         {
@@ -21,6 +21,7 @@
           "add_at": "2024-02-20"
         }
       ],
+      "friendRequestsSent": [],
       "groups": [],
       "created_at": "2024-01-15",
       "password": "password123",
@@ -32,8 +33,8 @@
       "username": "jane_smith",
       "email": "jane@example.com",
       "name": "Jane Smith",
-      "avatar": "https://example.com/profiles/jane.jpg",
-      "banner": "https://example.com/profiles/jane.jpg",
+      "avatar": "https://th.bing.com/th/id/R.e6453f9d07601043e5b928d25e129948?rik=JPSLKIXFf8DmmQ&pid=ImgRaw&r=0",
+      "banner": "https://th.bing.com/th/id/OIP.VoXO6QAJnMcud_Oig38WBQHaB2?rs=1&pid=ImgDetMain",
       "bio": "Graphic designer and artist.",
       "follows": [
         {
@@ -47,6 +48,7 @@
           "add_at": "2024-02-20"
         }
       ],
+      "friendRequestsSent": [],
       "groups": [],
       "created_at": "2024-01-16",
       "password": "securePass456",
@@ -58,8 +60,8 @@
       "username": "mike_ross",
       "email": "mike@example.com",
       "name": "Mike Ross",
-      "avatar": "https://example.com/profiles/mike.jpg",
-      "banner": "https://example.com/profiles/mike.jpg",
+      "avatar": "https://th.bing.com/th/id/R.e6453f9d07601043e5b928d25e129948?rik=JPSLKIXFf8DmmQ&pid=ImgRaw&r=0",
+      "banner": "https://th.bing.com/th/id/OIP.VoXO6QAJnMcud_Oig38WBQHaB2?rs=1&pid=ImgDetMain",
       "bio": "Software engineer and gamer.",
       "follows": [
         {
@@ -73,6 +75,7 @@
           "add_at": "2024-02-21"
         }
       ],
+      "friendRequestsSent": [],
       "groups": [],
       "created_at": "2024-01-17",
       "password": "MikeR0ss789",
@@ -84,8 +87,8 @@
       "username": "susan_lee",
       "email": "susan@example.com",
       "name": "Susan Lee",
-      "avatar": "https://example.com/profiles/susan.jpg",
-      "banner": "https://example.com/profiles/susan.jpg",
+      "avatar": "https://th.bing.com/th/id/R.e6453f9d07601043e5b928d25e129948?rik=JPSLKIXFf8DmmQ&pid=ImgRaw&r=0",
+      "banner": "https://th.bing.com/th/id/OIP.VoXO6QAJnMcud_Oig38WBQHaB2?rs=1&pid=ImgDetMain",
       "bio": "Entrepreneur and traveler.",
       "follows": [
         {
@@ -93,15 +96,11 @@
           "created_at": "2024-02-22"
         }
       ],
-      "friends": [
-        {
-          "userId": 2,
-          "add_at": "2024-02-22"
-        }
-      ],
+      "friends": [],
+      "friendRequestsSent": [],
       "groups": [],
       "created_at": "2024-01-18",
-      "password": "Tr4velWithMe!",
+      "password": "123",
       "gender": "Female"
     },
     {
@@ -110,8 +109,8 @@
       "username": "chris_evans",
       "email": "chris@example.com",
       "name": "Chris Evans",
-      "avatar": "https://example.com/profiles/chris.jpg",
-      "banner": "https://example.com/profiles/chris.jpg",
+      "avatar": "https://th.bing.com/th/id/R.e6453f9d07601043e5b928d25e129948?rik=JPSLKIXFf8DmmQ&pid=ImgRaw&r=0",
+      "banner": "https://th.bing.com/th/id/OIP.VoXO6QAJnMcud_Oig38WBQHaB2?rs=1&pid=ImgDetMain",
       "bio": "Fitness trainer and food lover.",
       "follows": [
         {
@@ -125,9 +124,10 @@
           "add_at": "2024-02-23"
         }
       ],
+      "friendRequestsSent": [],
       "groups": [],
       "created_at": "2024-01-19",
-      "password": "FitLover!123",
+      "password": "123",
       "gender": "Male"
     },
     {
@@ -136,8 +136,8 @@
       "username": "lisa_wong",
       "email": "lisa@example.com",
       "name": "Lisa Wong",
-      "avatar": "https://example.com/profiles/lisa.jpg",
-      "banner": "https://example.com/profiles/lisa.jpg",
+      "avatar": "https://th.bing.com/th/id/R.e6453f9d07601043e5b928d25e129948?rik=JPSLKIXFf8DmmQ&pid=ImgRaw&r=0",
+      "banner": "https://th.bing.com/th/id/OIP.VoXO6QAJnMcud_Oig38WBQHaB2?rs=1&pid=ImgDetMain",
       "bio": "Photographer and cat lover.",
       "follows": [
         {
@@ -147,10 +147,11 @@
       ],
       "friends": [
         {
-          "userId": 2,
+          "userId": "193f",
           "add_at": "2024-02-24"
         }
       ],
+      "friendRequestsSent": [],
       "groups": [],
       "created_at": "2024-01-20",
       "password": "PhotoC4t!",
@@ -162,8 +163,8 @@
       "username": "david_jones",
       "email": "david@example.com",
       "name": "David Jones",
-      "avatar": "https://example.com/profiles/david.jpg",
-      "banner": "https://example.com/profiles/david.jpg",
+      "avatar": "https://th.bing.com/th/id/R.e6453f9d07601043e5b928d25e129948?rik=JPSLKIXFf8DmmQ&pid=ImgRaw&r=0",
+      "banner": "https://th.bing.com/th/id/OIP.VoXO6QAJnMcud_Oig38WBQHaB2?rs=1&pid=ImgDetMain",
       "bio": "Writer and music enthusiast.",
       "follows": [
         {
@@ -177,6 +178,7 @@
           "add_at": "2024-02-25"
         }
       ],
+      "friendRequestsSent": [],
       "groups": [],
       "created_at": "2024-01-21",
       "password": "Muz1cWr1ter",
@@ -188,21 +190,22 @@
       "username": "amy_taylor",
       "email": "amy@example.com",
       "name": "Amy Taylor",
-      "avatar": "https://example.com/profiles/amy.jpg",
-      "banner": "https://example.com/profiles/amy.jpg",
+      "avatar": "https://th.bing.com/th/id/R.e6453f9d07601043e5b928d25e129948?rik=JPSLKIXFf8DmmQ&pid=ImgRaw&r=0",
+      "banner": "https://th.bing.com/th/id/OIP.VoXO6QAJnMcud_Oig38WBQHaB2?rs=1&pid=ImgDetMain",
       "bio": "Yoga instructor and wellness coach.",
       "follows": [
         {
-          "userId": 6,
+          "userId": "554",
           "created_at": "2024-02-26"
         }
       ],
       "friends": [
         {
-          "userId": 3,
+          "userId": "554",
           "add_at": "2024-02-26"
         }
       ],
+      "friendRequestsSent": [],
       "groups": [],
       "created_at": "2024-01-22",
       "password": "YogaL0ve123",
@@ -214,8 +217,8 @@
       "username": "tom_brown",
       "email": "tom@example.com",
       "name": "Tom Brown",
-      "avatar": "https://example.com/profiles/tom.jpg",
-      "banner": "https://example.com/profiles/tom.jpg",
+      "avatar": "https://th.bing.com/th/id/R.e6453f9d07601043e5b928d25e129948?rik=JPSLKIXFf8DmmQ&pid=ImgRaw&r=0",
+      "banner": "https://th.bing.com/th/id/OIP.VoXO6QAJnMcud_Oig38WBQHaB2?rs=1&pid=ImgDetMain",
       "bio": "Marketing expert and sports enthusiast.",
       "follows": [
         {
@@ -229,6 +232,7 @@
           "add_at": "2024-02-27"
         }
       ],
+      "friendRequestsSent": [],
       "groups": [],
       "created_at": "2024-01-23",
       "password": "M4rketMaster!",
@@ -240,8 +244,8 @@
       "username": "karen_green",
       "email": "karen@example.com",
       "name": "Karen Green",
-      "avatar": "https://example.com/profiles/karen.jpg",
-      "banner": "https://example.com/profiles/karen.jpg",
+      "avatar": "https://th.bing.com/th/id/R.e6453f9d07601043e5b928d25e129948?rik=JPSLKIXFf8DmmQ&pid=ImgRaw&r=0",
+      "banner": "https://th.bing.com/th/id/OIP.VoXO6QAJnMcud_Oig38WBQHaB2?rs=1&pid=ImgDetMain",
       "bio": "Blogger and digital nomad.",
       "follows": [
         {
@@ -255,6 +259,7 @@
           "add_at": "2024-02-28"
         }
       ],
+      "friendRequestsSent": [],
       "groups": [],
       "created_at": "2024-01-24",
       "password": "N0madLife!",
@@ -274,6 +279,7 @@
       "avatar": "https://th.bing.com/th/id/R.e6453f9d07601043e5b928d25e129948?rik=JPSLKIXFf8DmmQ&pid=ImgRaw&r=0",
       "group": [],
       "follow": [],
+      "friendRequestsSent": [],
       "friends": []
     },
     {
@@ -286,11 +292,12 @@
       "confirmPassword": "123",
       "gender": "Male",
       "create_at": "2024-09-08",
-      "bio": "",
-      "banner": "https://th.bing.com/th/id/OIP.VoXO6QAJnMcud_Oig38WBQHaB2?rs=1&pid=ImgDetMain",
-      "avatar": "https://th.bing.com/th/id/R.e6453f9d07601043e5b928d25e129948?rik=JPSLKIXFf8DmmQ&pid=ImgRaw&r=0",
+      "bio": "fixed",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/nextjs-785ba.appspot.com/o/media%2FbannerImages%2FScreenshot%202024-09-04%20131758.png?alt=media&token=896deac8-bab1-4c78-8b34-4bdbc13a6b0c",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/nextjs-785ba.appspot.com/o/media%2FprofileImages%2FScreenshot%202024-09-05%20132455.png?alt=media&token=83aee887-2b32-4b7b-a300-ef1db9213a97",
       "group": [],
       "follow": [],
+      "friendRequestsSent": [],
       "friends": [
         {
           "userId": "554",
@@ -312,14 +319,14 @@
           "userId": "12s",
           "add_at": "2024-02-22"
         }
-
       ]
     }
   ],
   "posts": [
     {
-      "post_id": "1234567890",
+      "id": "1234567890",
       "user_id": "773a",
+      "date": "9/9/2024, 4:04:16 PM",
       "content": {
         "text": "This is an example of a social media post.",
         "media": [
@@ -346,10 +353,6 @@
           {
             "type": "image",
             "url": "https://th.bing.com/th/id/R.be0d4a3ae62d899236574fd95c1fb4e6?rik=OjIK8kFlzdUiGw&pid=ImgRaw&r=0"
-          },
-          {
-            "type": "video",
-            "url": "https://scontent.fhan14-1.fna.fbcdn.net/v/t42.1790-2/458622095_4016930345202920_4914732148042952143_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNDM5MzQ2MjEyOTIyNTQyfQ%3D%3D&_nc_eui2=AeHIw-SfthNXpV5Yqa6cv8qlPfiBaQnB_7k9-IFpCcH_uVmM5yd2wsJVvwpV9luVsYT96Pqb2bVhqxSq1ulHA_I5&_nc_ohc=OJbnB7LK1D0Q7kNvgEqdrkj&tn=SNEalZlHc0lROdIh&_nc_rml=0&_nc_ht=scontent.fhan14-1.fna&_nc_gid=AovavxJbvp9Ow6NXNdw9Xyg&oh=00_AYDg4LPOGrLyUHql1ze2gqlGezeQ1WNSPxjabnAqO4LxyA&oe=66E3FE8B"
           }
         ]
       },
@@ -366,8 +369,54 @@
       }
     },
     {
-      "post_id": "2345678901",
+      "id": "1234567542",
       "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
+      "content": {
+        "text": "This is an example of a social media post 2.",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/R.be0d4a3ae62d899236574fd95c1fb4e6?rik=OjIK8kFlzdUiGw&pid=ImgRaw&r=0"
+          },
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/R.be0d4a3ae62d899236574fd95c1fb4e6?rik=OjIK8kFlzdUiGw&pid=ImgRaw&r=0"
+          },
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/R.be0d4a3ae62d899236574fd95c1fb4e6?rik=OjIK8kFlzdUiGw&pid=ImgRaw&r=0"
+          },
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/R.be0d4a3ae62d899236574fd95c1fb4e6?rik=OjIK8kFlzdUiGw&pid=ImgRaw&r=0"
+          },
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/R.be0d4a3ae62d899236574fd95c1fb4e6?rik=OjIK8kFlzdUiGw&pid=ImgRaw&r=0"
+          },
+          {
+            "type": "image",
+            "url": "https://th.bing.com/th/id/R.be0d4a3ae62d899236574fd95c1fb4e6?rik=OjIK8kFlzdUiGw&pid=ImgRaw&r=0"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 50,
+        "reactions": {
+          "like": 200,
+          "love": 30,
+          "wow": 15,
+          "sad": 5,
+          "angry": 6
+        }
+      }
+    },
+    {
+      "id": "2345678901",
+      "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
       "content": {
         "text": "Check out my new blog post!",
         "media": [
@@ -390,8 +439,9 @@
       }
     },
     {
-      "post_id": "3456789012",
+      "id": "3456789012",
       "user_id": "662w",
+      "date": "9/9/2024, 4:04:16 PM",
       "content": {
         "text": "Happy to announce our new product launch!",
         "media": [
@@ -414,8 +464,9 @@
       }
     },
     {
-      "post_id": "4567890123",
+      "id": "4567890123",
       "user_id": "662w",
+      "date": "9/9/2024, 4:04:16 PM",
       "content": {
         "text": "Throwback to my vacation in Greece!",
         "media": [
@@ -438,16 +489,12 @@
       }
     },
     {
-      "post_id": "6789012345",
+      "id": "6789012345",
       "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
       "content": {
         "text": "Here's a sneak peek of our next big project!",
-        "media": [
-          {
-            "type": "video",
-            "url": "https://scontent.fhan14-1.fna.fbcdn.net/v/t42.1790-2/458622095_4016930345202920_4914732148042952143_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNDM5MzQ2MjEyOTIyNTQyfQ%3D%3D&_nc_eui2=AeHIw-SfthNXpV5Yqa6cv8qlPfiBaQnB_7k9-IFpCcH_uVmM5yd2wsJVvwpV9luVsYT96Pqb2bVhqxSq1ulHA_I5&_nc_ohc=OJbnB7LK1D0Q7kNvgEqdrkj&tn=SNEalZlHc0lROdIh&_nc_rml=0&_nc_ht=scontent.fhan14-1.fna&_nc_gid=AovavxJbvp9Ow6NXNdw9Xyg&oh=00_AYDg4LPOGrLyUHql1ze2gqlGezeQ1WNSPxjabnAqO4LxyA&oe=66E3FE8B"
-          }
-        ]
+        "media": []
       },
       "status": "private",
       "engagement": {
@@ -462,8 +509,9 @@
       }
     },
     {
-      "post_id": "7890123456",
+      "id": "7890123456",
       "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
       "content": {
         "text": "Celebrating our team's latest achievement!",
         "media": [
@@ -486,8 +534,9 @@
       }
     },
     {
-      "post_id": "8901234567",
+      "id": "8901234567",
       "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
       "content": {
         "text": "Feeling grateful for all the support!",
         "media": []
@@ -505,8 +554,9 @@
       }
     },
     {
-      "post_id": "9012345678",
+      "id": "9012345678",
       "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
       "content": {
         "text": "Just hit a new milestone on my fitness journey!",
         "media": [
@@ -529,8 +579,9 @@
       }
     },
     {
-      "post_id": "1234567891",
+      "id": "1234567891",
       "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
       "content": {
         "text": "Just finished reading an amazing book!",
         "media": [
@@ -553,8 +604,9 @@
       }
     },
     {
-      "post_id": "2345678902",
+      "id": "2345678902",
       "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
       "content": {
         "text": "Happy Monday everyone! How’s your week starting?",
         "media": []
@@ -572,8 +624,9 @@
       }
     },
     {
-      "post_id": "3456789013",
+      "id": "3456789013",
       "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
       "content": {
         "text": "Our new office space is ready! Excited to move in.",
         "media": [
@@ -596,8 +649,9 @@
       }
     },
     {
-      "post_id": "4567890124",
+      "id": "4567890124",
       "user_id": "773a",
+      "date": "9/9/2024, 4:04:16 PM",
       "content": {
         "text": "Thankful for a fantastic dinner with friends.",
         "media": [
@@ -620,8 +674,9 @@
       }
     },
     {
-      "post_id": "5678901235",
+      "id": "5678901235",
       "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
       "content": {
         "text": "Just got back from a relaxing weekend getaway.",
         "media": [
@@ -644,16 +699,12 @@
       }
     },
     {
-      "post_id": "6789012347",
+      "id": "6789012347",
       "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
       "content": {
         "text": "Sharing a sneak peek of my latest project.",
-        "media": [
-          {
-            "type": "video",
-            "url": "https://scontent.fhan14-1.fna.fbcdn.net/v/t42.1790-2/458622095_4016930345202920_4914732148042952143_n.mp4?_nc_cat=107&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNDM5MzQ2MjEyOTIyNTQyfQ%3D%3D&_nc_eui2=AeHIw-SfthNXpV5Yqa6cv8qlPfiBaQnB_7k9-IFpCcH_uVmM5yd2wsJVvwpV9luVsYT96Pqb2bVhqxSq1ulHA_I5&_nc_ohc=OJbnB7LK1D0Q7kNvgEqdrkj&tn=SNEalZlHc0lROdIh&_nc_rml=0&_nc_ht=scontent.fhan14-1.fna&_nc_gid=AovavxJbvp9Ow6NXNdw9Xyg&oh=00_AYDg4LPOGrLyUHql1ze2gqlGezeQ1WNSPxjabnAqO4LxyA&oe=66E3FE8B"
-          }
-        ]
+        "media": []
       },
       "status": "public",
       "engagement": {
@@ -668,8 +719,9 @@
       }
     },
     {
-      "post_id": "7890123456",
+      "id": "7890123456",
       "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
       "content": {
         "text": "Celebrating our team's latest achievement!",
         "media": [
@@ -692,8 +744,9 @@
       }
     },
     {
-      "post_id": "8901234568",
+      "id": "8901234568",
       "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
       "content": {
         "text": "Celebrating our 5th anniversary!",
         "media": [
@@ -716,8 +769,9 @@
       }
     },
     {
-      "post_id": "9012345678",
+      "id": "9012345678",
       "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
       "content": {
         "text": "Just hit a new milestone on my fitness journey!",
         "media": [
@@ -740,8 +794,9 @@
       }
     },
     {
-      "post_id": "0123456789",
+      "id": "0123456789",
       "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
       "content": {
         "text": "Our team is expanding! Check out our latest job openings.",
         "media": [
@@ -762,7 +817,184 @@
           "angry": 2
         }
       }
+    },
+    {
+      "id": "362143101",
+      "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
+      "content": {
+        "text": "43",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://firebasestorage.googleapis.com/v0/b/nextjs-785ba.appspot.com/o/images%2FScreenshot%202024-09-04%20131650.png?alt=media&token=fbd8d59c-18ef-4f14-9853-29474a52d712"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 0,
+        "reactions": {
+          "like": 0,
+          "love": 0,
+          "wow": 0,
+          "sad": 0,
+          "angry": 0
+        }
+      }
+    },
+    {
+      "id": "923842085",
+      "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
+      "content": {
+        "text": "444",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://firebasestorage.googleapis.com/v0/b/nextjs-785ba.appspot.com/o/images%2FScreenshot%202024-09-04%20131650.png?alt=media&token=0fe3b5ed-f173-4cef-b564-df0c18527842"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 0,
+        "reactions": {
+          "like": 0,
+          "love": 0,
+          "wow": 0,
+          "sad": 0,
+          "angry": 0
+        }
+      }
+    },
+    {
+      "id": "721234759",
+      "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
+      "content": {
+        "text": "4412",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://firebasestorage.googleapis.com/v0/b/nextjs-785ba.appspot.com/o/images%2FScreenshot%202024-09-04%20131650.png?alt=media&token=b7052924-3ea6-4d24-9864-606f1401589f"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 0,
+        "reactions": {
+          "like": 0,
+          "love": 0,
+          "wow": 0,
+          "sad": 0,
+          "angry": 0
+        }
+      }
+    },
+    {
+      "id": "690316460",
+      "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
+      "content": {
+        "text": "2 files",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://firebasestorage.googleapis.com/v0/b/nextjs-785ba.appspot.com/o/images%2FScreenshot%202024-09-04%20131650.png?alt=media&token=7c96eb9c-8e5b-4f3d-a1e6-79b52bdccee9"
+          },
+          {
+            "type": "image",
+            "url": "https://firebasestorage.googleapis.com/v0/b/nextjs-785ba.appspot.com/o/images%2FScreenshot%202024-09-04%20131758.png?alt=media&token=fbb0d420-55ef-473c-bcaa-70837bc676cd"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 0,
+        "reactions": {
+          "like": 0,
+          "love": 0,
+          "wow": 0,
+          "sad": 0,
+          "angry": 0
+        }
+      }
+    },
+    {
+      "id": "284726653",
+      "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
+      "content": {
+        "text": "",
+        "media": []
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 0,
+        "reactions": {
+          "like": 0,
+          "love": 0,
+          "wow": 0,
+          "sad": 0,
+          "angry": 0
+        }
+      }
+    },
+    {
+      "id": "641054711",
+      "user_id": "08f6",
+      "date": "9/9/2024, 4:04:16 PM",
+      "content": {
+        "text": "",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://firebasestorage.googleapis.com/v0/b/nextjs-785ba.appspot.com/o/media%2FScreenshot%202024-09-04%20131650.png?alt=media&token=7f00c48e-f8ac-4221-8115-9696baaba573"
+          },
+          {
+            "type": "image",
+            "url": "https://firebasestorage.googleapis.com/v0/b/nextjs-785ba.appspot.com/o/media%2FScreenshot%202024-09-04%20131758.png?alt=media&token=acbe0c09-cab2-437c-a940-a0ae2f95bd6c"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 0,
+        "reactions": {
+          "like": 0,
+          "love": 0,
+          "wow": 0,
+          "sad": 0,
+          "angry": 0
+        }
+      }
+    },
+    {
+      "id": "168482906",
+      "user_id": "08f6",
+      "date": "9/10/2024, 4:04:16 PM",
+      "content": {
+        "text": "",
+        "media": [
+          {
+            "type": "image",
+            "url": "https://firebasestorage.googleapis.com/v0/b/nextjs-785ba.appspot.com/o/media%2FScreenshot%202024-09-04%20131650.png?alt=media&token=99f0d898-9fd2-4797-884a-87de15bde55b"
+          }
+        ]
+      },
+      "status": "public",
+      "engagement": {
+        "shares": 0,
+        "reactions": {
+          "like": 0,
+          "love": 0,
+          "wow": 0,
+          "sad": 0,
+          "angry": 0
+        }
+      }
     }
-  
   ]
 }

@@ -29,7 +29,6 @@ export default function SignIn() {
     fetchData();
   }, [dispatch]);
 
-  // Select user data from Redux store
   const userLogin = useSelector((state: any) => state.client.userList);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -68,18 +67,20 @@ export default function SignIn() {
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     
-    // Call validateForm and get results
     const { isValid, matchedUser } = validateForm();
     
-    if (!isValid) return; // Exit early if validation fails
+    if (!isValid) return;
 
-    // Simulate a successful login
-    const loginSuccessful = true; // Replace with actual authentication logic
-
-    if (loginSuccessful && matchedUser) {
+    if (matchedUser) {
+      // Save login state and user info in localStorage
       localStorage.setItem("userLoggedIn", JSON.stringify(matchedUser));
-      localStorage.setItem("loginState", JSON.stringify(true)); // Set loginState to true
-      router.push("/"); // Redirect to home page
+      localStorage.setItem("loginState", JSON.stringify(true));
+      
+      // Manually trigger the 'storage' event so that other components (HeaderWrapper) are notified
+      window.dispatchEvent(new Event("storage"));
+
+      // Redirect to home page
+      router.push("/"); 
     } else {
       setErrors({ email: "Login failed. Please check your credentials." });
     }
@@ -90,7 +91,6 @@ export default function SignIn() {
   };
 
   if (loading) {
-    // Optionally render a loading spinner
     return <div>Loading...</div>;
   }
 

@@ -1,7 +1,10 @@
 "use"
 import { fetchPosts } from "@/app/services/forClient/fetchPost"
 import { fetchUser } from "@/app/services/forClient/fetchUser"
+import { openNotifications } from "@/app/services/forClient/openNotification"
+import { posting } from "@/app/services/forClient/posting"
 import { register } from "@/app/services/forClient/register"
+import { updateProfile } from "@/app/services/forClient/updateProfile"
 import { createSlice } from "@reduxjs/toolkit"
 
 
@@ -12,6 +15,7 @@ const clientReducer  = createSlice({
         userList:[],
         user:{},
         posts: [],
+        openNoti: false
     },
     reducers: {
        
@@ -33,6 +37,18 @@ const clientReducer  = createSlice({
         })
         builder.addCase(fetchPosts.fulfilled, (state, action) => {
             state.posts = action.payload
+        })
+        builder.addCase(posting.fulfilled, (state:any, action) => {
+            state.posts.unshift(action.payload)
+        })
+        builder.addCase(updateProfile.fulfilled, (state:any, action) => {
+            const updateProfile = state.userList.findIndex((user:any) => user.id === action.payload.id)
+            if(updateProfile >= 0){
+                state.userList[updateProfile] = action.payload
+            }
+        })
+        builder.addCase(openNotifications.fulfilled,(state:any, action) => {
+            state.openNoti = action.payload
         })
     }
 })

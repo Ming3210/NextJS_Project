@@ -22,6 +22,23 @@ export default function Home() {
     friends: [],
   });
 
+  const [user,setUser] = useState<any>({
+    name: "",
+    username: "",
+    email: "",
+    dateOfBirth: "",
+    password: "",
+    confirmPassword: "",
+    gender: "",
+    create_at: new Date().toISOString().slice(0, 10),
+    bio: "",
+    banner: "https://th.bing.com/th/id/OIP.VoXO6QAJnMcud_Oig38WBQHaB2?rs=1&pid=ImgDetMain",
+    avatar: "https://th.bing.com/th/id/R.e6453f9d07601043e5b928d25e129948?rik=JPSLKIXFf8DmmQ&pid=ImgRaw&r=0",
+    group: [],
+    follow: [],
+    friends: [],
+  });
+
   const [errors, setErrors] = useState<any>({});
   const dispatch = useDispatch();
   const state = useSelector((state: any) => state.client); // Sử dụng state từ Redux
@@ -81,7 +98,24 @@ export default function Home() {
         return;
       }
 
-      dispatch(register(formData));
+      setUser((prevUser:any) => ({
+        ...prevUser,
+        name: formData.name,
+        username: formData.username,
+        email: formData.email,
+        dateOfBirth: formData.dateOfBirth,
+        password: formData.password,
+        gender: formData.gender,
+        create_at: formData.create_at,
+        bio: formData.bio,
+        banner: formData.banner,
+        avatar: formData.avatar,
+        group: formData.group,
+        follow: formData.follow,
+        friends: formData.friends,
+      }));
+
+      dispatch(register(user));
     }
   };
 

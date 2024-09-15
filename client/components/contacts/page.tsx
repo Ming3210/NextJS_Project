@@ -1,7 +1,10 @@
 import { fetchPosts } from "@/app/services/forClient/fetchPost";
 import { fetchUser } from "@/app/services/forClient/fetchUser";
 import React, { useEffect, useState } from "react";
+import { CiSearch } from "react-icons/ci";
 import { FaSearch } from "react-icons/fa";
+import { HiDotsHorizontal } from "react-icons/hi";
+import { IoMdClose } from "react-icons/io";
 import { useDispatch, useSelector } from "react-redux";
 
 export default function Contacts() {
@@ -26,7 +29,12 @@ export default function Contacts() {
   
   return (
     <div className="">
-       {currentUser?.friends.map((friendId:any) => {
+      <div className="flex justify-between"><div>Contact</div>
+      <div className="mr-7 flex gap-5">
+      <HiDotsHorizontal />
+      <CiSearch />
+        </div></div>
+      {currentUser?.friends.map((friendId:any) => {
         const friend = findUserById(friendId.userId);
         return friend ? (
           <div key={friend.id} className="my-4 flex items-center">
@@ -39,6 +47,7 @@ export default function Contacts() {
           </div>
         ) : null;
       })}
+      
     </div>
   );
 }

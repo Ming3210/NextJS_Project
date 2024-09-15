@@ -1,5 +1,6 @@
 import { fetchPosts } from "@/app/services/forClient/fetchPost";
 import { fetchUser } from "@/app/services/forClient/fetchUser";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { BiSolidTimeFive } from "react-icons/bi";
 import { FaChevronDown, FaUserFriends } from "react-icons/fa";
@@ -14,6 +15,7 @@ import { useDispatch, useSelector } from "react-redux";
 export default function Sidebar() {
   const dispatch: any = useDispatch();
   const state: any = useSelector((state) => state);
+  const router = useRouter()
   const [user, setUser] = useState<any>(() => {
     let data = JSON.parse(localStorage.getItem("userLoggedIn") || "{}");
     return data;
@@ -28,12 +30,16 @@ export default function Sidebar() {
     return state.client.userList?.find((user: any) => user.id === userId);
   };
   let a = findUserById(user.id);
+
+  const redirect = () => {
+    router.push('/profile')
+  }
   
   
   return (
     <div className="sidebar flex flex-col">
-      <div className="flex mb-4 items-center ml-5 gap-3">
-      <img className="w-[40px] h-[40px] rounded-full" src="https://static.vecteezy.com/system/resources/previews/009/292/244/original/default-avatar-icon-of-social-media-user-vector.jpg" />{a?.username}
+      <div onClick={redirect} className="flex cursor-pointer hover:bg-slate-600 rounded-l-lg mb-4 items-center ml-5 gap-3">
+      <img className="w-[40px] h-[40px] rounded-full" src={user.avatar} />{a?.username}
       </div>
       <div className="flex gap-3 mb-4 items-center ">
       <FaUserFriends className="w-[40px] ml-5 h-[40px]" />Friends
